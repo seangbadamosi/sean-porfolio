@@ -11,7 +11,7 @@
 
 
 
-   /* Animations
+    /* Animations
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
@@ -67,7 +67,7 @@
 
 
 
-   /* Preloader
+    /* Preloader
     * -------------------------------------------------- */
     const ssPreloader = function() {
 
@@ -93,7 +93,7 @@
     }; // end ssPreloader
 
 
-   /* Mobile Menu
+    /* Mobile Menu
     * ---------------------------------------------------- */ 
     const ssMobileMenu = function() {
 
@@ -132,7 +132,7 @@
     }; // end ssMobileMenu
 
 
-   /* Highlight active menu link on pagescroll
+    /* Highlight active menu link on pagescroll
     * ------------------------------------------------------ */
     const ssScrollSpy = function() {
 
@@ -153,7 +153,7 @@
                 const sectionTop = current.offsetTop - 50;
                 const sectionId = current.getAttribute("id");
             
-               /* If our current scroll position enters the space where current section 
+                /* If our current scroll position enters the space where current section 
                 * on screen is, add .current class to parent element(li) of the thecorresponding 
                 * navigation link, else remove it. To know which link is active, we use 
                 * sectionId variable we are getting while looping through sections as 
@@ -170,7 +170,7 @@
     }; // end ssScrollSpy
 
 
-   /* Animate elements if in viewport
+    /* Animate elements if in viewport
     * ------------------------------------------------------ */
     const ssViewAnimate = function() {
 
@@ -210,7 +210,7 @@
     }; // end ssViewAnimate
 
 
-   /* Swiper
+    /* Swiper
     * ------------------------------------------------------ */ 
     const ssSwiper = function() {
 
@@ -238,12 +238,12 @@
                     spaceBetween: 80
                 }
             }
-         });
+        });
 
     }; // end ssSwiper
 
 
-   /* Lightbox
+    /* Lightbox
     * ------------------------------------------------------ */
     const ssLightbox = function() {
 
@@ -279,12 +279,12 @@
     };  // end ssLightbox
 
 
-   /* Alert boxes
+    /* Alert boxes
     * ------------------------------------------------------ */
     const ssAlertBoxes = function() {
 
         const boxes = document.querySelectorAll('.alert-box');
-  
+
         boxes.forEach(function(box){
 
             box.addEventListener('click', function(event) {
@@ -303,7 +303,7 @@
     }; // end ssAlertBoxes
 
 
-   /* Smoothscroll
+    /* Smoothscroll
     * ------------------------------------------------------ */
     const ssMoveTo = function(){
 
@@ -346,7 +346,7 @@
     }; // end ssMoveTo
 
 
-   /* Initialize
+    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
 
