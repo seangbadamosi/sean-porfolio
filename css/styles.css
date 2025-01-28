@@ -3411,6 +3411,8 @@ img.u-pull-left {
     object-fit     : cover;
     margin         : 0;
     vertical-align : bottom;
+    aspect-ratio: 6/5;
+    width: 95%; 
 }
 
 .about-info__text {
@@ -3643,10 +3645,10 @@ img.u-pull-left {
 }
 
 .folio-list__item-pic {
-    display  : block;
-    position : absolute;
-    top      : 0;
-    left     : 0;
+    display   : block;
+    position  : absolute;
+    top       : 0;
+    left      : 0;
 }
 
 .folio-list__item-pic img {
